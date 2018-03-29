@@ -1,9 +1,11 @@
 package com.example.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    private Button btTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 初始化view
+     *
      */
     private void initView() {
 
